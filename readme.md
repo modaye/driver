@@ -5,7 +5,7 @@
 使用
 * 安装
 
-      pip install driver
+      pip install driver-downloader
 
 * 命令行 使用
 
