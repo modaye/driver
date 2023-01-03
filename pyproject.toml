@@ -1,7 +1,7 @@
 # 构建
 [tool.poetry]
 name = "driver-downloader"
-version = "0.1.0"
+version = "0.2.0"
 description = "chromedriver downloader"
 authors = ["Tai <flywacool@gmail.com>"]
 license = "MIT"
@@ -16,7 +16,7 @@ classifiers = [
     "Topic :: Software Development :: Libraries :: Python Modules"
 ]
 packages = [
-    { include = "src/driver" },
+    { include = "driver", from="src/"},
 ]
 repository = "https://github.com/modaye/driver"
 [tool.poetry.dependencies]
