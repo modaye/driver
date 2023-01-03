@@ -13,8 +13,6 @@ readme = "readme.md"
 keywords = ["selenium", "chromedriver"]
 
 classifiers = [
-    "Topic :: Software Development :: Selenium",
-    "Topic :: Software Development :: Chromedriver",
     "Topic :: Software Development :: Libraries :: Python Modules"
 ]
 [tool.poetry.dependencies]
